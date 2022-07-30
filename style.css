@@ -1,0 +1,272 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper{
+    max-width: 1440px;
+    width: 100%;
+    height: auto;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    width: 100%;
+}
+
+.logo img{
+    width: 50px;
+    height: 40px;
+    margin-left: 30px;
+}
+
+.orta{
+    width: 100%;
+    margin-left: 50px;
+}
+
+.search{
+    width: 70%;
+    height: 30px;
+    /* border-radius: 20px; */
+    /* background-image: linear-gradient(#00c3ff,#ffff1c); */
+}
+
+.submit{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.ong{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+/* =================== 11111111111111111111 =============   */
+
+.section1{
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    overflow: hidden;
+}
+
+.d1{
+    margin-left: 40px;
+}
+
+.sec_01{
+    width: 200px;
+    height: 100px;
+    background-color: rgba(0, 0, 0, 0.63);
+    position: absolute;
+    z-index: 1;
+    transform: translateY(-400px);
+    transition: all 1s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 0, 0);
+    font-size: large;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.sec1{
+   width: 200px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+    box-shadow: gray 10px 10px 10px;
+}
+
+.sec1 img{
+    width: 200px;
+    height: 200px;
+}
+
+.d1:hover .sec_01{
+    transform: translateY(0);
+}
+
+.crud_plus_minus {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.crud_plus_minus input {
+    width: 30px;
+    height: auto;
+    margin: 0 10px;
+    margin-top: 3px;
+
+}
+
+.crud_plus_minus button {
+    width: 60px;
+    height: auto;
+    border: none;
+    border-radius: 4px;
+    
+}
+
+
+@media (max-width: 360px) {
+
+    .wrapper{
+        max-width: 360px;
+        width: 100%;
+        height: auto;
+    }
+    
+    nav{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    .logo{
+        width: 100%;
+    }
+    
+    .logo p{
+        font-size: 12px;
+    }
+
+    .logo img{
+        width: 30px;
+        height: 25px;
+        margin-left: 25px;
+    }
+    
+    .orta{
+        width: 100%;
+        display: flex;
+        margin-left: 50px;
+    }
+    
+    .search{
+        width: 50%;
+        height: 30px;
+        /* border-radius: 20px; */
+        /* background-image: linear-gradient(#00c3ff,#ffff1c); */
+    }
+    
+    .submit{
+        width: 50px;
+        height: 20px;
+        border-radius: 10px;
+        display: none;
+    }
+    .ong{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+    }
+    select{
+        width: 100px;
+        height: 30px;
+    }
+
+    /* =================== 11111111111111111111 =============   */
+    
+    .section1{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .d1{
+        margin-left: 60px;
+    }
+    
+    .sec_01{
+        width: 200px;
+        height: 100px;
+        background-color: rgba(0, 0, 0, 0.63);
+        position: absolute;
+        z-index: 1;
+        transform: translateY(-400px);
+        transition: all 1s ease;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: rgb(255, 0, 0);
+        font-size: large;
+        text-align: center;
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    
+    .sec1{
+       width: 200px;
+        height: 200px;
+        margin-left: 20px;
+        margin-top: 20px;
+        box-shadow: gray 10px 10px 10px;
+    }
+    
+    .sec1 img{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .d1:hover .sec_01{
+        transform: translateY(0);
+    }
+    
+    .crud_plus_minus {
+        width: 100%;
+        height: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 10px;
+    }
+    
+    .crud_plus_minus input {
+        width: 30px;
+        height: auto;
+        margin: 0 10px;
+        margin-top: 3px;
+    
+    }
+    
+    .crud_plus_minus button {
+        width: 60px;
+        height: auto;
+        border: none;
+        border-radius: 4px;
+        
+    }
+}
